@@ -9,7 +9,7 @@ from time import sleep
 
 
 logging.basicConfig(
-    filename='logs/app.log', 
+    filename='../logs/app.log', 
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -82,7 +82,7 @@ def craw_product_info(browser, url):
         else:
             origin_price = origin_price[0].text
         color_price_items = browser.find_elements(By.CLASS_NAME, 'color-price')
-        color_prices = []
+        color_prices = ''
         for color_price in color_price_items:
             color = color_price.find_element(By.TAG_NAME, 'span').text
             price = color_price.find_elements(By.TAG_NAME, 'p')
@@ -90,11 +90,9 @@ def craw_product_info(browser, url):
                 price = browser.find_element(By.CLASS_NAME, 'box-price').find_element(By.TAG_NAME, 'strong').text
             else:
                 price = price[0].text
-            color_prices.append(
-                f'Màu: {color} - Giá: {price}'
-            )
+            color_prices += f'Màu: {color} - Giá: {price}, '
         # Craw technical info
-        technical_infomation = []
+        technical_infomation = ''
         browser.find_element(By.CLASS_NAME, 'ajax-modal-show').click()
         sleep(2)
         technicals_info = browser.find_element(By.CLASS_NAME, 'text-align-start')
@@ -107,10 +105,7 @@ def craw_product_info(browser, url):
                 technical_content_title = technical_content.find_element(By.TAG_NAME, 'strong').text
                 technical_content_data = technical_content.find_element(By.TAG_NAME, 'span').text
                 technicals_data += f'{technical_content_title}: {technical_content_data}\n'
-            technical_infomation.append(
-                f'{technical_title}: [{technicals_data}]'
-            )
-        
+            technical_infomation += f'{technicals_data}, '
         product_info = {
             'url': url,
             'item_name': item_name,

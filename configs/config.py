@@ -13,6 +13,9 @@ class LoadConfig:
         # GROQ CONFIG
         self.GROQ_MODEL = config['llm_groq']['model']
         self.GROQ_API = config['llm_groq']['api_key']
+        self.GROQ_MAX_TOKENS = config['llm_groq']['max_tokens']
+        self.GROQ_TEMPERATURE = config['llm_groq']['temperature']
+        self.GROQ_TIMEOUT  = config['llm_groq']['timeout']
 
         # QDRANT_CONFIG
         self.QDRANT_URL = config['qdrant']['url']
@@ -36,3 +39,5 @@ class LoadConfig:
 
         # DATA CONFIG
         self.FINAL_DATA_PATH = config['data']['final_data_path']
+        # RAG CONFIIG
+        self.MEMORY_K = 50

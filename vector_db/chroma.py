@@ -35,6 +35,10 @@ class DataPreprocesser:
         
         for _, row in final_df.iterrows():
             content = (
+                """
+                Tên sản phẩm: {item_name} - Giá gốc: {origin_price}
+                Màu sắc và giá
+                """
                 f'Tên sản phẩm: {row["item_name"]} - '
                 f'Giá gốc: {row["origin_price"]}\n'
                 f'Màu sắc và giá tương ứng: {row["color_price"]}\n'
@@ -78,7 +82,7 @@ class ChromaRetriever:
         # initialize the ensemble retriever with 3 Retrievers
         ensemble_retriever = EnsembleRetriever(
             retrievers=[mmr_retriever, bm25_retriever, vanilla_retriever], 
-            weights=[0.4, 0.4, 0.2]
+            weights=[0.2, 0.4, 0.4]
         )
         return ensemble_retriever
     def mmr_retriver(self, vector_db):
@@ -114,6 +118,7 @@ class ChromaSearchEngine:
         retriever_engine = self.retriever.ensemble_retriever(vector_db = vector_db,
                                                              documents = documents)
         relevent_docs = retriever_engine.invoke(question)
+        relevent_docs = "\n".join(doc.page_content for doc in relevent_docs) if relevent_docs else None
         return relevent_docs
 
 
