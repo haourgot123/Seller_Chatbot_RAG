@@ -133,3 +133,1339 @@ Stacktrace:
 #20 0x77d65549ca94 <unknown>
 #21 0x77d655529c3c <unknown>
 
+2025-01-18 07:14:22,860 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 07:14:37,918 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x6192906db1fa <unknown>
+#1 0x6192901eb810 <unknown>
+#2 0x61929023a506 <unknown>
+#3 0x61929023a7a1 <unknown>
+#4 0x61929022ec46 <unknown>
+#5 0x61929025e5ad <unknown>
+#6 0x61929022eb38 <unknown>
+#7 0x61929025e74e <unknown>
+#8 0x61929027d007 <unknown>
+#9 0x61929025e323 <unknown>
+#10 0x61929022cde0 <unknown>
+#11 0x61929022ddbe <unknown>
+#12 0x6192906a712b <unknown>
+#13 0x6192906ab0c7 <unknown>
+#14 0x6192906946cc <unknown>
+#15 0x6192906abc47 <unknown>
+#16 0x61929067967f <unknown>
+#17 0x6192906ca288 <unknown>
+#18 0x6192906ca450 <unknown>
+#19 0x6192906da076 <unknown>
+#20 0x7b83f1c9ca94 <unknown>
+#21 0x7b83f1d29c3c <unknown>
+
+2025-01-18 07:16:50,578 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6192906db1fa <unknown>
+#1 0x6192901eb810 <unknown>
+#2 0x619290241206 <unknown>
+#3 0x61929023f16d <unknown>
+#4 0x61929023c885 <unknown>
+#5 0x61929023ba48 <unknown>
+#6 0x61929022f1f5 <unknown>
+#7 0x61929025e582 <unknown>
+#8 0x61929022eb38 <unknown>
+#9 0x61929025e74e <unknown>
+#10 0x61929027d007 <unknown>
+#11 0x61929025e323 <unknown>
+#12 0x61929022cde0 <unknown>
+#13 0x61929022ddbe <unknown>
+#14 0x6192906a712b <unknown>
+#15 0x6192906ab0c7 <unknown>
+#16 0x6192906946cc <unknown>
+#17 0x6192906abc47 <unknown>
+#18 0x61929067967f <unknown>
+#19 0x6192906ca288 <unknown>
+#20 0x6192906ca450 <unknown>
+#21 0x6192906da076 <unknown>
+#22 0x7b83f1c9ca94 <unknown>
+#23 0x7b83f1d29c3c <unknown>
+
+2025-01-18 07:17:02,921 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 781)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6192906db1fa <unknown>
+#1 0x6192901eb810 <unknown>
+#2 0x619290241206 <unknown>
+#3 0x61929023f16d <unknown>
+#4 0x61929023c885 <unknown>
+#5 0x61929023ba48 <unknown>
+#6 0x61929022f1f5 <unknown>
+#7 0x61929025e582 <unknown>
+#8 0x61929022eb38 <unknown>
+#9 0x61929025e74e <unknown>
+#10 0x61929027d007 <unknown>
+#11 0x61929025e323 <unknown>
+#12 0x61929022cde0 <unknown>
+#13 0x61929022ddbe <unknown>
+#14 0x6192906a712b <unknown>
+#15 0x6192906ab0c7 <unknown>
+#16 0x6192906946cc <unknown>
+#17 0x6192906abc47 <unknown>
+#18 0x61929067967f <unknown>
+#19 0x6192906ca288 <unknown>
+#20 0x6192906ca450 <unknown>
+#21 0x6192906da076 <unknown>
+#22 0x7b83f1c9ca94 <unknown>
+#23 0x7b83f1d29c3c <unknown>
+
+2025-01-18 07:20:05,183 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6192906db1fa <unknown>
+#1 0x6192901eb810 <unknown>
+#2 0x619290241206 <unknown>
+#3 0x61929023f16d <unknown>
+#4 0x61929023c885 <unknown>
+#5 0x61929023ba48 <unknown>
+#6 0x61929022f1f5 <unknown>
+#7 0x61929025e582 <unknown>
+#8 0x61929022eb38 <unknown>
+#9 0x61929025e74e <unknown>
+#10 0x61929027d007 <unknown>
+#11 0x61929025e323 <unknown>
+#12 0x61929022cde0 <unknown>
+#13 0x61929022ddbe <unknown>
+#14 0x6192906a712b <unknown>
+#15 0x6192906ab0c7 <unknown>
+#16 0x6192906946cc <unknown>
+#17 0x6192906abc47 <unknown>
+#18 0x61929067967f <unknown>
+#19 0x6192906ca288 <unknown>
+#20 0x6192906ca450 <unknown>
+#21 0x6192906da076 <unknown>
+#22 0x7b83f1c9ca94 <unknown>
+#23 0x7b83f1d29c3c <unknown>
+
+2025-01-18 07:22:04,914 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6192906db1fa <unknown>
+#1 0x6192901eb810 <unknown>
+#2 0x619290241206 <unknown>
+#3 0x61929023f16d <unknown>
+#4 0x61929023c885 <unknown>
+#5 0x61929023ba48 <unknown>
+#6 0x61929022f1f5 <unknown>
+#7 0x61929025e582 <unknown>
+#8 0x61929022eb38 <unknown>
+#9 0x61929025e74e <unknown>
+#10 0x61929027d007 <unknown>
+#11 0x61929025e323 <unknown>
+#12 0x61929022cde0 <unknown>
+#13 0x61929022ddbe <unknown>
+#14 0x6192906a712b <unknown>
+#15 0x6192906ab0c7 <unknown>
+#16 0x6192906946cc <unknown>
+#17 0x6192906abc47 <unknown>
+#18 0x61929067967f <unknown>
+#19 0x6192906ca288 <unknown>
+#20 0x6192906ca450 <unknown>
+#21 0x6192906da076 <unknown>
+#22 0x7b83f1c9ca94 <unknown>
+#23 0x7b83f1d29c3c <unknown>
+
+2025-01-18 07:33:58,244 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:33:58,245 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:34:41,043 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:34:41,043 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:35:18,156 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:35:18,156 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:35:22,933 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:39:45,630 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:39:45,631 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:39:51,503 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:42:14,287 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:42:14,287 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:42:20,783 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:43:40,304 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:43:40,305 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:43:45,022 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:44:46,873 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:44:46,873 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 07:44:51,582 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:53:04,139 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:53:04,140 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 07:53:37,291 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:54:54,839 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:54:54,839 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 07:54:59,583 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:56:16,026 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:56:16,027 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 07:56:21,654 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 07:57:45,281 - INFO - Use pytorch device_name: cpu
+2025-01-18 07:57:45,282 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 07:57:53,812 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 08:06:59,490 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 08:07:15,782 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5cb66afde1fa <unknown>
+#1 0x5cb66aaee810 <unknown>
+#2 0x5cb66ab3d506 <unknown>
+#3 0x5cb66ab3d7a1 <unknown>
+#4 0x5cb66ab31c46 <unknown>
+#5 0x5cb66ab615ad <unknown>
+#6 0x5cb66ab31b38 <unknown>
+#7 0x5cb66ab6174e <unknown>
+#8 0x5cb66ab80007 <unknown>
+#9 0x5cb66ab61323 <unknown>
+#10 0x5cb66ab2fde0 <unknown>
+#11 0x5cb66ab30dbe <unknown>
+#12 0x5cb66afaa12b <unknown>
+#13 0x5cb66afae0c7 <unknown>
+#14 0x5cb66af976cc <unknown>
+#15 0x5cb66afaec47 <unknown>
+#16 0x5cb66af7c67f <unknown>
+#17 0x5cb66afcd288 <unknown>
+#18 0x5cb66afcd450 <unknown>
+#19 0x5cb66afdd076 <unknown>
+#20 0x76281cc9ca94 <unknown>
+#21 0x76281cd29c3c <unknown>
+
+2025-01-18 08:14:44,113 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 08:14:58,567 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x6534a07161fa <unknown>
+#1 0x6534a0226810 <unknown>
+#2 0x6534a0275506 <unknown>
+#3 0x6534a02757a1 <unknown>
+#4 0x6534a0269c46 <unknown>
+#5 0x6534a02995ad <unknown>
+#6 0x6534a0269b38 <unknown>
+#7 0x6534a029974e <unknown>
+#8 0x6534a02b8007 <unknown>
+#9 0x6534a0299323 <unknown>
+#10 0x6534a0267de0 <unknown>
+#11 0x6534a0268dbe <unknown>
+#12 0x6534a06e212b <unknown>
+#13 0x6534a06e60c7 <unknown>
+#14 0x6534a06cf6cc <unknown>
+#15 0x6534a06e6c47 <unknown>
+#16 0x6534a06b467f <unknown>
+#17 0x6534a0705288 <unknown>
+#18 0x6534a0705450 <unknown>
+#19 0x6534a0715076 <unknown>
+#20 0x7d417169ca94 <unknown>
+#21 0x7d4171729c3c <unknown>
+
+2025-01-18 08:16:46,455 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6534a07161fa <unknown>
+#1 0x6534a0226810 <unknown>
+#2 0x6534a027c206 <unknown>
+#3 0x6534a027a16d <unknown>
+#4 0x6534a0277885 <unknown>
+#5 0x6534a0276a48 <unknown>
+#6 0x6534a026a1f5 <unknown>
+#7 0x6534a0299582 <unknown>
+#8 0x6534a0269b38 <unknown>
+#9 0x6534a029974e <unknown>
+#10 0x6534a02b8007 <unknown>
+#11 0x6534a0299323 <unknown>
+#12 0x6534a0267de0 <unknown>
+#13 0x6534a0268dbe <unknown>
+#14 0x6534a06e212b <unknown>
+#15 0x6534a06e60c7 <unknown>
+#16 0x6534a06cf6cc <unknown>
+#17 0x6534a06e6c47 <unknown>
+#18 0x6534a06b467f <unknown>
+#19 0x6534a0705288 <unknown>
+#20 0x6534a0705450 <unknown>
+#21 0x6534a0715076 <unknown>
+#22 0x7d417169ca94 <unknown>
+#23 0x7d4171729c3c <unknown>
+
+2025-01-18 08:16:53,997 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 781)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6534a07161fa <unknown>
+#1 0x6534a0226810 <unknown>
+#2 0x6534a027c206 <unknown>
+#3 0x6534a027a16d <unknown>
+#4 0x6534a0277885 <unknown>
+#5 0x6534a0276a48 <unknown>
+#6 0x6534a026a1f5 <unknown>
+#7 0x6534a0299582 <unknown>
+#8 0x6534a0269b38 <unknown>
+#9 0x6534a029974e <unknown>
+#10 0x6534a02b8007 <unknown>
+#11 0x6534a0299323 <unknown>
+#12 0x6534a0267de0 <unknown>
+#13 0x6534a0268dbe <unknown>
+#14 0x6534a06e212b <unknown>
+#15 0x6534a06e60c7 <unknown>
+#16 0x6534a06cf6cc <unknown>
+#17 0x6534a06e6c47 <unknown>
+#18 0x6534a06b467f <unknown>
+#19 0x6534a0705288 <unknown>
+#20 0x6534a0705450 <unknown>
+#21 0x6534a0715076 <unknown>
+#22 0x7d417169ca94 <unknown>
+#23 0x7d4171729c3c <unknown>
+
+2025-01-18 08:18:55,896 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6534a07161fa <unknown>
+#1 0x6534a0226810 <unknown>
+#2 0x6534a027c206 <unknown>
+#3 0x6534a027a16d <unknown>
+#4 0x6534a0277885 <unknown>
+#5 0x6534a0276a48 <unknown>
+#6 0x6534a026a1f5 <unknown>
+#7 0x6534a0299582 <unknown>
+#8 0x6534a0269b38 <unknown>
+#9 0x6534a029974e <unknown>
+#10 0x6534a02b8007 <unknown>
+#11 0x6534a0299323 <unknown>
+#12 0x6534a0267de0 <unknown>
+#13 0x6534a0268dbe <unknown>
+#14 0x6534a06e212b <unknown>
+#15 0x6534a06e60c7 <unknown>
+#16 0x6534a06cf6cc <unknown>
+#17 0x6534a06e6c47 <unknown>
+#18 0x6534a06b467f <unknown>
+#19 0x6534a0705288 <unknown>
+#20 0x6534a0705450 <unknown>
+#21 0x6534a0715076 <unknown>
+#22 0x7d417169ca94 <unknown>
+#23 0x7d4171729c3c <unknown>
+
+2025-01-18 08:20:31,404 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6534a07161fa <unknown>
+#1 0x6534a0226810 <unknown>
+#2 0x6534a027c206 <unknown>
+#3 0x6534a027a16d <unknown>
+#4 0x6534a0277885 <unknown>
+#5 0x6534a0276a48 <unknown>
+#6 0x6534a026a1f5 <unknown>
+#7 0x6534a0299582 <unknown>
+#8 0x6534a0269b38 <unknown>
+#9 0x6534a029974e <unknown>
+#10 0x6534a02b8007 <unknown>
+#11 0x6534a0299323 <unknown>
+#12 0x6534a0267de0 <unknown>
+#13 0x6534a0268dbe <unknown>
+#14 0x6534a06e212b <unknown>
+#15 0x6534a06e60c7 <unknown>
+#16 0x6534a06cf6cc <unknown>
+#17 0x6534a06e6c47 <unknown>
+#18 0x6534a06b467f <unknown>
+#19 0x6534a0705288 <unknown>
+#20 0x6534a0705450 <unknown>
+#21 0x6534a0715076 <unknown>
+#22 0x7d417169ca94 <unknown>
+#23 0x7d4171729c3c <unknown>
+
+2025-01-18 08:26:23,924 - INFO - Use pytorch device_name: cpu
+2025-01-18 08:26:23,925 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 08:26:30,317 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 08:34:56,698 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 08:35:13,746 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x557691c141fa <unknown>
+#1 0x557691724810 <unknown>
+#2 0x557691773506 <unknown>
+#3 0x5576917737a1 <unknown>
+#4 0x557691767c46 <unknown>
+#5 0x5576917975ad <unknown>
+#6 0x557691767b38 <unknown>
+#7 0x55769179774e <unknown>
+#8 0x5576917b6007 <unknown>
+#9 0x557691797323 <unknown>
+#10 0x557691765de0 <unknown>
+#11 0x557691766dbe <unknown>
+#12 0x557691be012b <unknown>
+#13 0x557691be40c7 <unknown>
+#14 0x557691bcd6cc <unknown>
+#15 0x557691be4c47 <unknown>
+#16 0x557691bb267f <unknown>
+#17 0x557691c03288 <unknown>
+#18 0x557691c03450 <unknown>
+#19 0x557691c13076 <unknown>
+#20 0x7a633d29ca94 <unknown>
+#21 0x7a633d329c3c <unknown>
+
+2025-01-18 08:42:44,457 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 08:42:58,950 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x60cc6d9f21fa <unknown>
+#1 0x60cc6d502810 <unknown>
+#2 0x60cc6d551506 <unknown>
+#3 0x60cc6d5517a1 <unknown>
+#4 0x60cc6d545c46 <unknown>
+#5 0x60cc6d5755ad <unknown>
+#6 0x60cc6d545b38 <unknown>
+#7 0x60cc6d57574e <unknown>
+#8 0x60cc6d594007 <unknown>
+#9 0x60cc6d575323 <unknown>
+#10 0x60cc6d543de0 <unknown>
+#11 0x60cc6d544dbe <unknown>
+#12 0x60cc6d9be12b <unknown>
+#13 0x60cc6d9c20c7 <unknown>
+#14 0x60cc6d9ab6cc <unknown>
+#15 0x60cc6d9c2c47 <unknown>
+#16 0x60cc6d99067f <unknown>
+#17 0x60cc6d9e1288 <unknown>
+#18 0x60cc6d9e1450 <unknown>
+#19 0x60cc6d9f1076 <unknown>
+#20 0x745fcd09ca94 <unknown>
+#21 0x745fcd129c3c <unknown>
+
+2025-01-18 09:38:31,978 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 09:38:49,404 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x567bb628d1fa <unknown>
+#1 0x567bb5d9d810 <unknown>
+#2 0x567bb5dec506 <unknown>
+#3 0x567bb5dec7a1 <unknown>
+#4 0x567bb5de0c46 <unknown>
+#5 0x567bb5e105ad <unknown>
+#6 0x567bb5de0b38 <unknown>
+#7 0x567bb5e1074e <unknown>
+#8 0x567bb5e2f007 <unknown>
+#9 0x567bb5e10323 <unknown>
+#10 0x567bb5ddede0 <unknown>
+#11 0x567bb5ddfdbe <unknown>
+#12 0x567bb625912b <unknown>
+#13 0x567bb625d0c7 <unknown>
+#14 0x567bb62466cc <unknown>
+#15 0x567bb625dc47 <unknown>
+#16 0x567bb622b67f <unknown>
+#17 0x567bb627c288 <unknown>
+#18 0x567bb627c450 <unknown>
+#19 0x567bb628c076 <unknown>
+#20 0x798586c9ca94 <unknown>
+#21 0x798586d29c3c <unknown>
+
+2025-01-18 09:40:38,656 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x567bb628d1fa <unknown>
+#1 0x567bb5d9d810 <unknown>
+#2 0x567bb5df3206 <unknown>
+#3 0x567bb5df116d <unknown>
+#4 0x567bb5dee885 <unknown>
+#5 0x567bb5deda48 <unknown>
+#6 0x567bb5de11f5 <unknown>
+#7 0x567bb5e10582 <unknown>
+#8 0x567bb5de0b38 <unknown>
+#9 0x567bb5e1074e <unknown>
+#10 0x567bb5e2f007 <unknown>
+#11 0x567bb5e10323 <unknown>
+#12 0x567bb5ddede0 <unknown>
+#13 0x567bb5ddfdbe <unknown>
+#14 0x567bb625912b <unknown>
+#15 0x567bb625d0c7 <unknown>
+#16 0x567bb62466cc <unknown>
+#17 0x567bb625dc47 <unknown>
+#18 0x567bb622b67f <unknown>
+#19 0x567bb627c288 <unknown>
+#20 0x567bb627c450 <unknown>
+#21 0x567bb628c076 <unknown>
+#22 0x798586c9ca94 <unknown>
+#23 0x798586d29c3c <unknown>
+
+2025-01-18 09:40:46,063 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 781)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x567bb628d1fa <unknown>
+#1 0x567bb5d9d810 <unknown>
+#2 0x567bb5df3206 <unknown>
+#3 0x567bb5df116d <unknown>
+#4 0x567bb5dee885 <unknown>
+#5 0x567bb5deda48 <unknown>
+#6 0x567bb5de11f5 <unknown>
+#7 0x567bb5e10582 <unknown>
+#8 0x567bb5de0b38 <unknown>
+#9 0x567bb5e1074e <unknown>
+#10 0x567bb5e2f007 <unknown>
+#11 0x567bb5e10323 <unknown>
+#12 0x567bb5ddede0 <unknown>
+#13 0x567bb5ddfdbe <unknown>
+#14 0x567bb625912b <unknown>
+#15 0x567bb625d0c7 <unknown>
+#16 0x567bb62466cc <unknown>
+#17 0x567bb625dc47 <unknown>
+#18 0x567bb622b67f <unknown>
+#19 0x567bb627c288 <unknown>
+#20 0x567bb627c450 <unknown>
+#21 0x567bb628c076 <unknown>
+#22 0x798586c9ca94 <unknown>
+#23 0x798586d29c3c <unknown>
+
+2025-01-18 09:42:52,453 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x567bb628d1fa <unknown>
+#1 0x567bb5d9d810 <unknown>
+#2 0x567bb5df3206 <unknown>
+#3 0x567bb5df116d <unknown>
+#4 0x567bb5dee885 <unknown>
+#5 0x567bb5deda48 <unknown>
+#6 0x567bb5de11f5 <unknown>
+#7 0x567bb5e10582 <unknown>
+#8 0x567bb5de0b38 <unknown>
+#9 0x567bb5e1074e <unknown>
+#10 0x567bb5e2f007 <unknown>
+#11 0x567bb5e10323 <unknown>
+#12 0x567bb5ddede0 <unknown>
+#13 0x567bb5ddfdbe <unknown>
+#14 0x567bb625912b <unknown>
+#15 0x567bb625d0c7 <unknown>
+#16 0x567bb62466cc <unknown>
+#17 0x567bb625dc47 <unknown>
+#18 0x567bb622b67f <unknown>
+#19 0x567bb627c288 <unknown>
+#20 0x567bb627c450 <unknown>
+#21 0x567bb628c076 <unknown>
+#22 0x798586c9ca94 <unknown>
+#23 0x798586d29c3c <unknown>
+
+2025-01-18 09:44:31,831 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x567bb628d1fa <unknown>
+#1 0x567bb5d9d810 <unknown>
+#2 0x567bb5df3206 <unknown>
+#3 0x567bb5df116d <unknown>
+#4 0x567bb5dee885 <unknown>
+#5 0x567bb5deda48 <unknown>
+#6 0x567bb5de11f5 <unknown>
+#7 0x567bb5e10582 <unknown>
+#8 0x567bb5de0b38 <unknown>
+#9 0x567bb5e1074e <unknown>
+#10 0x567bb5e2f007 <unknown>
+#11 0x567bb5e10323 <unknown>
+#12 0x567bb5ddede0 <unknown>
+#13 0x567bb5ddfdbe <unknown>
+#14 0x567bb625912b <unknown>
+#15 0x567bb625d0c7 <unknown>
+#16 0x567bb62466cc <unknown>
+#17 0x567bb625dc47 <unknown>
+#18 0x567bb622b67f <unknown>
+#19 0x567bb627c288 <unknown>
+#20 0x567bb627c450 <unknown>
+#21 0x567bb628c076 <unknown>
+#22 0x798586c9ca94 <unknown>
+#23 0x798586d29c3c <unknown>
+
+2025-01-18 09:50:53,491 - INFO - Use pytorch device_name: cpu
+2025-01-18 09:50:53,492 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 09:51:05,816 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 09:51:09,467 - INFO - Backing off send_request(...) for 0.0s (posthog.request.APIError: [PostHog] upstream connect error or disconnect/reset before headers. reset reason: overflow (503))
+2025-01-18 09:53:57,130 - INFO - Use pytorch device_name: cpu
+2025-01-18 09:53:57,131 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 09:54:06,868 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 09:54:09,075 - INFO - Backing off send_request(...) for 0.5s (posthog.request.APIError: [PostHog] upstream connect error or disconnect/reset before headers. reset reason: overflow (503))
+2025-01-18 10:18:02,204 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:18:02,205 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:18:11,042 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:30:13,145 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 10:30:28,379 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fb4506 <unknown>
+#3 0x5e4ad6fb47a1 <unknown>
+#4 0x5e4ad6fa8c46 <unknown>
+#5 0x5e4ad6fd85ad <unknown>
+#6 0x5e4ad6fa8b38 <unknown>
+#7 0x5e4ad6fd874e <unknown>
+#8 0x5e4ad6ff7007 <unknown>
+#9 0x5e4ad6fd8323 <unknown>
+#10 0x5e4ad6fa6de0 <unknown>
+#11 0x5e4ad6fa7dbe <unknown>
+#12 0x5e4ad742112b <unknown>
+#13 0x5e4ad74250c7 <unknown>
+#14 0x5e4ad740e6cc <unknown>
+#15 0x5e4ad7425c47 <unknown>
+#16 0x5e4ad73f367f <unknown>
+#17 0x5e4ad7444288 <unknown>
+#18 0x5e4ad7444450 <unknown>
+#19 0x5e4ad7454076 <unknown>
+#20 0x733ebfa9ca94 <unknown>
+#21 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:33:05,319 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fbb206 <unknown>
+#3 0x5e4ad6fb916d <unknown>
+#4 0x5e4ad6fb6885 <unknown>
+#5 0x5e4ad6fb5a48 <unknown>
+#6 0x5e4ad6fa91f5 <unknown>
+#7 0x5e4ad6fd8582 <unknown>
+#8 0x5e4ad6fa8b38 <unknown>
+#9 0x5e4ad6fd874e <unknown>
+#10 0x5e4ad6ff7007 <unknown>
+#11 0x5e4ad6fd8323 <unknown>
+#12 0x5e4ad6fa6de0 <unknown>
+#13 0x5e4ad6fa7dbe <unknown>
+#14 0x5e4ad742112b <unknown>
+#15 0x5e4ad74250c7 <unknown>
+#16 0x5e4ad740e6cc <unknown>
+#17 0x5e4ad7425c47 <unknown>
+#18 0x5e4ad73f367f <unknown>
+#19 0x5e4ad7444288 <unknown>
+#20 0x5e4ad7444450 <unknown>
+#21 0x5e4ad7454076 <unknown>
+#22 0x733ebfa9ca94 <unknown>
+#23 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:33:15,648 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 844)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fbb206 <unknown>
+#3 0x5e4ad6fb916d <unknown>
+#4 0x5e4ad6fb6885 <unknown>
+#5 0x5e4ad6fb5a48 <unknown>
+#6 0x5e4ad6fa91f5 <unknown>
+#7 0x5e4ad6fd8582 <unknown>
+#8 0x5e4ad6fa8b38 <unknown>
+#9 0x5e4ad6fd874e <unknown>
+#10 0x5e4ad6ff7007 <unknown>
+#11 0x5e4ad6fd8323 <unknown>
+#12 0x5e4ad6fa6de0 <unknown>
+#13 0x5e4ad6fa7dbe <unknown>
+#14 0x5e4ad742112b <unknown>
+#15 0x5e4ad74250c7 <unknown>
+#16 0x5e4ad740e6cc <unknown>
+#17 0x5e4ad7425c47 <unknown>
+#18 0x5e4ad73f367f <unknown>
+#19 0x5e4ad7444288 <unknown>
+#20 0x5e4ad7444450 <unknown>
+#21 0x5e4ad7454076 <unknown>
+#22 0x733ebfa9ca94 <unknown>
+#23 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:34:27,348 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 657)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fbb206 <unknown>
+#3 0x5e4ad6fb916d <unknown>
+#4 0x5e4ad6fb6885 <unknown>
+#5 0x5e4ad6fb5a48 <unknown>
+#6 0x5e4ad6fa91f5 <unknown>
+#7 0x5e4ad6fd8582 <unknown>
+#8 0x5e4ad6fa8b38 <unknown>
+#9 0x5e4ad6fd874e <unknown>
+#10 0x5e4ad6ff7007 <unknown>
+#11 0x5e4ad6fd8323 <unknown>
+#12 0x5e4ad6fa6de0 <unknown>
+#13 0x5e4ad6fa7dbe <unknown>
+#14 0x5e4ad742112b <unknown>
+#15 0x5e4ad74250c7 <unknown>
+#16 0x5e4ad740e6cc <unknown>
+#17 0x5e4ad7425c47 <unknown>
+#18 0x5e4ad73f367f <unknown>
+#19 0x5e4ad7444288 <unknown>
+#20 0x5e4ad7444450 <unknown>
+#21 0x5e4ad7454076 <unknown>
+#22 0x733ebfa9ca94 <unknown>
+#23 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:34:35,030 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fbb206 <unknown>
+#3 0x5e4ad6fb916d <unknown>
+#4 0x5e4ad6fb6885 <unknown>
+#5 0x5e4ad6fb5a48 <unknown>
+#6 0x5e4ad6fa91f5 <unknown>
+#7 0x5e4ad6fd8582 <unknown>
+#8 0x5e4ad6fa8b38 <unknown>
+#9 0x5e4ad6fd874e <unknown>
+#10 0x5e4ad6ff7007 <unknown>
+#11 0x5e4ad6fd8323 <unknown>
+#12 0x5e4ad6fa6de0 <unknown>
+#13 0x5e4ad6fa7dbe <unknown>
+#14 0x5e4ad742112b <unknown>
+#15 0x5e4ad74250c7 <unknown>
+#16 0x5e4ad740e6cc <unknown>
+#17 0x5e4ad7425c47 <unknown>
+#18 0x5e4ad73f367f <unknown>
+#19 0x5e4ad7444288 <unknown>
+#20 0x5e4ad7444450 <unknown>
+#21 0x5e4ad7454076 <unknown>
+#22 0x733ebfa9ca94 <unknown>
+#23 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:36:02,705 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e4ad74551fa <unknown>
+#1 0x5e4ad6f65810 <unknown>
+#2 0x5e4ad6fbb206 <unknown>
+#3 0x5e4ad6fb916d <unknown>
+#4 0x5e4ad6fb6885 <unknown>
+#5 0x5e4ad6fb5a48 <unknown>
+#6 0x5e4ad6fa91f5 <unknown>
+#7 0x5e4ad6fd8582 <unknown>
+#8 0x5e4ad6fa8b38 <unknown>
+#9 0x5e4ad6fd874e <unknown>
+#10 0x5e4ad6ff7007 <unknown>
+#11 0x5e4ad6fd8323 <unknown>
+#12 0x5e4ad6fa6de0 <unknown>
+#13 0x5e4ad6fa7dbe <unknown>
+#14 0x5e4ad742112b <unknown>
+#15 0x5e4ad74250c7 <unknown>
+#16 0x5e4ad740e6cc <unknown>
+#17 0x5e4ad7425c47 <unknown>
+#18 0x5e4ad73f367f <unknown>
+#19 0x5e4ad7444288 <unknown>
+#20 0x5e4ad7444450 <unknown>
+#21 0x5e4ad7454076 <unknown>
+#22 0x733ebfa9ca94 <unknown>
+#23 0x733ebfb29c3c <unknown>
+
+2025-01-18 10:39:50,224 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-18 10:40:14,262 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:40:14,262 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:40:48,467 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:41:57,456 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:41:57,456 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:42:08,490 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:43:05,499 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:43:05,502 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:43:57,301 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:54:52,125 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:54:52,126 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:54:59,951 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:56:14,155 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:56:14,155 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:56:19,951 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 10:58:30,065 - INFO - Use pytorch device_name: cpu
+2025-01-18 10:58:30,077 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 10:58:46,384 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 11:00:08,204 - INFO - Use pytorch device_name: cpu
+2025-01-18 11:00:08,204 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 11:00:16,347 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:11:21,497 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:11:21,499 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 12:11:29,344 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:13:05,737 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:13:05,738 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 12:13:13,754 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:26:48,990 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:26:48,990 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 12:27:02,810 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:33:39,787 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:33:39,788 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 12:33:55,157 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:35:26,422 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:35:26,423 - INFO - Load pretrained SentenceTransformer: BAAI/bge-base-en-v1.5
+2025-01-18 12:36:43,221 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 12:54:19,260 - INFO - Use pytorch device_name: cpu
+2025-01-18 12:54:19,261 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 12:54:36,095 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:02:52,056 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:02:52,057 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:06:38,867 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:06:38,868 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:06:47,734 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:17:40,295 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:17:40,310 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:17:54,300 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:18:24,073 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:18:24,074 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:18:31,992 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:19:03,474 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:19:03,475 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:19:25,428 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:19:45,705 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:19:45,705 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:19:59,732 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:20:55,304 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:20:55,304 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:21:12,311 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:24:11,147 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:24:11,148 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:24:20,755 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:25:09,125 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:25:09,127 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:25:16,117 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:25:41,964 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:25:41,965 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:25:50,696 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:26:21,963 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:26:21,963 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:26:26,696 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 13:48:03,746 - INFO - Use pytorch device_name: cpu
+2025-01-18 13:48:03,747 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 13:48:15,865 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 18:46:01,009 - INFO - Use pytorch device_name: cpu
+2025-01-18 18:46:01,010 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 18:46:18,097 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 18:51:08,252 - INFO - Use pytorch device_name: cpu
+2025-01-18 18:51:08,252 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 18:51:20,894 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 18:54:28,952 - INFO - Use pytorch device_name: cpu
+2025-01-18 18:54:28,952 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 18:54:52,481 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 18:55:27,094 - INFO - Use pytorch device_name: cpu
+2025-01-18 18:55:27,094 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 18:55:48,158 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-18 18:56:31,882 - INFO - Use pytorch device_name: cpu
+2025-01-18 18:56:31,882 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-18 18:56:36,143 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:03:43,538 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:03:43,539 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:03:48,060 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:07:05,263 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:07:05,263 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:07:09,036 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:34:37,318 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:34:37,318 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:34:41,800 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:35:06,083 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:35:06,083 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:35:10,035 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:42:50,175 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:42:50,177 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:42:54,212 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:43:30,131 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:43:30,131 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:43:34,088 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:52:04,577 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:52:04,577 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 04:52:08,503 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 04:57:53,457 - INFO - Use pytorch device_name: cpu
+2025-01-19 04:57:53,457 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 05:01:37,350 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 05:23:42,712 - INFO - Use pytorch device_name: cpu
+2025-01-19 05:23:42,712 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-19 05:24:09,319 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-19 06:43:56,037 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 06:44:07,483 - WARNING - Can not find HTML element Message: element click intercepted: Element <a href="/dien-thoai-di-dong/iphone?p=2">...</a> is not clickable at point (769, 92). Other element would receive the click: <div class="search-bg">...</div>
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x609c6dfad1fa <unknown>
+#1 0x609c6dabd810 <unknown>
+#2 0x609c6db13206 <unknown>
+#3 0x609c6db1116d <unknown>
+#4 0x609c6db0e885 <unknown>
+#5 0x609c6db0da48 <unknown>
+#6 0x609c6db011f5 <unknown>
+#7 0x609c6db30582 <unknown>
+#8 0x609c6db00b38 <unknown>
+#9 0x609c6db3074e <unknown>
+#10 0x609c6db4f007 <unknown>
+#11 0x609c6db30323 <unknown>
+#12 0x609c6dafede0 <unknown>
+#13 0x609c6daffdbe <unknown>
+#14 0x609c6df7912b <unknown>
+#15 0x609c6df7d0c7 <unknown>
+#16 0x609c6df666cc <unknown>
+#17 0x609c6df7dc47 <unknown>
+#18 0x609c6df4b67f <unknown>
+#19 0x609c6df9c288 <unknown>
+#20 0x609c6df9c450 <unknown>
+#21 0x609c6dfac076 <unknown>
+#22 0x7e292e49ca94 <unknown>
+#23 0x7e292e529c3c <unknown>
+
+2025-01-19 06:56:05,651 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 06:56:22,144 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5d81054651fa <unknown>
+#1 0x5d8104f75810 <unknown>
+#2 0x5d8104fc4506 <unknown>
+#3 0x5d8104fc47a1 <unknown>
+#4 0x5d8104fb8c46 <unknown>
+#5 0x5d8104fe85ad <unknown>
+#6 0x5d8104fb8b38 <unknown>
+#7 0x5d8104fe874e <unknown>
+#8 0x5d8105007007 <unknown>
+#9 0x5d8104fe8323 <unknown>
+#10 0x5d8104fb6de0 <unknown>
+#11 0x5d8104fb7dbe <unknown>
+#12 0x5d810543112b <unknown>
+#13 0x5d81054350c7 <unknown>
+#14 0x5d810541e6cc <unknown>
+#15 0x5d8105435c47 <unknown>
+#16 0x5d810540367f <unknown>
+#17 0x5d8105454288 <unknown>
+#18 0x5d8105454450 <unknown>
+#19 0x5d8105464076 <unknown>
+#20 0x70d71c09ca94 <unknown>
+#21 0x70d71c129c3c <unknown>
+
+2025-01-19 06:57:02,050 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 06:57:15,840 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5f952eef91fa <unknown>
+#1 0x5f952ea09810 <unknown>
+#2 0x5f952ea58506 <unknown>
+#3 0x5f952ea587a1 <unknown>
+#4 0x5f952ea4cc46 <unknown>
+#5 0x5f952ea7c5ad <unknown>
+#6 0x5f952ea4cb38 <unknown>
+#7 0x5f952ea7c74e <unknown>
+#8 0x5f952ea9b007 <unknown>
+#9 0x5f952ea7c323 <unknown>
+#10 0x5f952ea4ade0 <unknown>
+#11 0x5f952ea4bdbe <unknown>
+#12 0x5f952eec512b <unknown>
+#13 0x5f952eec90c7 <unknown>
+#14 0x5f952eeb26cc <unknown>
+#15 0x5f952eec9c47 <unknown>
+#16 0x5f952ee9767f <unknown>
+#17 0x5f952eee8288 <unknown>
+#18 0x5f952eee8450 <unknown>
+#19 0x5f952eef8076 <unknown>
+#20 0x711deca9ca94 <unknown>
+#21 0x711decb29c3c <unknown>
+
+2025-01-19 07:52:45,294 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 07:53:00,987 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5eff831de1fa <unknown>
+#1 0x5eff82cee810 <unknown>
+#2 0x5eff82d3d506 <unknown>
+#3 0x5eff82d3d7a1 <unknown>
+#4 0x5eff82d31c46 <unknown>
+#5 0x5eff82d615ad <unknown>
+#6 0x5eff82d31b38 <unknown>
+#7 0x5eff82d6174e <unknown>
+#8 0x5eff82d80007 <unknown>
+#9 0x5eff82d61323 <unknown>
+#10 0x5eff82d2fde0 <unknown>
+#11 0x5eff82d30dbe <unknown>
+#12 0x5eff831aa12b <unknown>
+#13 0x5eff831ae0c7 <unknown>
+#14 0x5eff831976cc <unknown>
+#15 0x5eff831aec47 <unknown>
+#16 0x5eff8317c67f <unknown>
+#17 0x5eff831cd288 <unknown>
+#18 0x5eff831cd450 <unknown>
+#19 0x5eff831dd076 <unknown>
+#20 0x7d640ee9ca94 <unknown>
+#21 0x7d640ef29c3c <unknown>
+
+2025-01-19 07:53:10,177 - WARNING - Item have not colors or price
+2025-01-19 07:53:21,605 - WARNING - Item have not colors or price
+2025-01-19 07:53:31,753 - WARNING - Item have not colors or price
+2025-01-19 07:53:42,177 - WARNING - Item have not colors or price
+2025-01-19 07:53:52,417 - WARNING - Item have not colors or price
+2025-01-19 07:54:03,047 - WARNING - Item have not colors or price
+2025-01-19 07:54:13,242 - WARNING - Item have not colors or price
+2025-01-19 07:54:24,055 - WARNING - Item have not colors or price
+2025-01-19 07:54:34,183 - WARNING - Item have not colors or price
+2025-01-19 07:54:44,894 - WARNING - Item have not colors or price
+2025-01-19 07:54:55,107 - WARNING - Item have not colors or price
+2025-01-19 07:55:05,217 - WARNING - Item have not colors or price
+2025-01-19 07:55:30,598 - WARNING - Item have not colors or price
+2025-01-19 07:55:41,511 - WARNING - Item have not colors or price
+2025-01-19 07:55:51,740 - WARNING - Item have not colors or price
+2025-01-19 07:56:02,067 - WARNING - Item have not colors or price
+2025-01-19 07:56:12,703 - WARNING - Item have not colors or price
+2025-01-19 07:56:23,480 - WARNING - Item have not colors or price
+2025-01-19 07:56:34,186 - WARNING - Item have not colors or price
+2025-01-19 07:56:44,873 - WARNING - Item have not colors or price
+2025-01-19 07:56:55,989 - WARNING - Item have not colors or price
+2025-01-19 07:57:06,653 - WARNING - Item have not colors or price
+2025-01-19 07:57:17,183 - WARNING - Item have not colors or price
+2025-01-19 07:57:27,676 - WARNING - Item have not colors or price
+2025-01-19 07:57:37,979 - WARNING - Item have not colors or price
+2025-01-19 07:57:48,702 - WARNING - Item have not colors or price
+2025-01-19 07:57:59,225 - WARNING - Item have not colors or price
+2025-01-19 07:58:09,303 - WARNING - Item have not colors or price
+2025-01-19 08:02:38,699 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 08:02:52,970 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x598840afe1fa <unknown>
+#1 0x59884060e810 <unknown>
+#2 0x59884065d506 <unknown>
+#3 0x59884065d7a1 <unknown>
+#4 0x598840651c46 <unknown>
+#5 0x5988406815ad <unknown>
+#6 0x598840651b38 <unknown>
+#7 0x59884068174e <unknown>
+#8 0x5988406a0007 <unknown>
+#9 0x598840681323 <unknown>
+#10 0x59884064fde0 <unknown>
+#11 0x598840650dbe <unknown>
+#12 0x598840aca12b <unknown>
+#13 0x598840ace0c7 <unknown>
+#14 0x598840ab76cc <unknown>
+#15 0x598840acec47 <unknown>
+#16 0x598840a9c67f <unknown>
+#17 0x598840aed288 <unknown>
+#18 0x598840aed450 <unknown>
+#19 0x598840afd076 <unknown>
+#20 0x768a4ea9ca94 <unknown>
+#21 0x768a4eb29c3c <unknown>
+
+2025-01-19 08:06:43,147 - WARNING - Item have not colors or price
+2025-01-19 08:12:58,021 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 08:13:12,315 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5e352f4a21fa <unknown>
+#1 0x5e352efb2810 <unknown>
+#2 0x5e352f001506 <unknown>
+#3 0x5e352f0017a1 <unknown>
+#4 0x5e352eff5c46 <unknown>
+#5 0x5e352f0255ad <unknown>
+#6 0x5e352eff5b38 <unknown>
+#7 0x5e352f02574e <unknown>
+#8 0x5e352f044007 <unknown>
+#9 0x5e352f025323 <unknown>
+#10 0x5e352eff3de0 <unknown>
+#11 0x5e352eff4dbe <unknown>
+#12 0x5e352f46e12b <unknown>
+#13 0x5e352f4720c7 <unknown>
+#14 0x5e352f45b6cc <unknown>
+#15 0x5e352f472c47 <unknown>
+#16 0x5e352f44067f <unknown>
+#17 0x5e352f491288 <unknown>
+#18 0x5e352f491450 <unknown>
+#19 0x5e352f4a1076 <unknown>
+#20 0x71200be9ca94 <unknown>
+#21 0x71200bf29c3c <unknown>
+
+2025-01-19 08:15:00,869 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e352f4a21fa <unknown>
+#1 0x5e352efb2810 <unknown>
+#2 0x5e352f008206 <unknown>
+#3 0x5e352f00616d <unknown>
+#4 0x5e352f003885 <unknown>
+#5 0x5e352f002a48 <unknown>
+#6 0x5e352eff61f5 <unknown>
+#7 0x5e352f025582 <unknown>
+#8 0x5e352eff5b38 <unknown>
+#9 0x5e352f02574e <unknown>
+#10 0x5e352f044007 <unknown>
+#11 0x5e352f025323 <unknown>
+#12 0x5e352eff3de0 <unknown>
+#13 0x5e352eff4dbe <unknown>
+#14 0x5e352f46e12b <unknown>
+#15 0x5e352f4720c7 <unknown>
+#16 0x5e352f45b6cc <unknown>
+#17 0x5e352f472c47 <unknown>
+#18 0x5e352f44067f <unknown>
+#19 0x5e352f491288 <unknown>
+#20 0x5e352f491450 <unknown>
+#21 0x5e352f4a1076 <unknown>
+#22 0x71200be9ca94 <unknown>
+#23 0x71200bf29c3c <unknown>
+
+2025-01-19 08:15:08,647 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 844)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e352f4a21fa <unknown>
+#1 0x5e352efb2810 <unknown>
+#2 0x5e352f008206 <unknown>
+#3 0x5e352f00616d <unknown>
+#4 0x5e352f003885 <unknown>
+#5 0x5e352f002a48 <unknown>
+#6 0x5e352eff61f5 <unknown>
+#7 0x5e352f025582 <unknown>
+#8 0x5e352eff5b38 <unknown>
+#9 0x5e352f02574e <unknown>
+#10 0x5e352f044007 <unknown>
+#11 0x5e352f025323 <unknown>
+#12 0x5e352eff3de0 <unknown>
+#13 0x5e352eff4dbe <unknown>
+#14 0x5e352f46e12b <unknown>
+#15 0x5e352f4720c7 <unknown>
+#16 0x5e352f45b6cc <unknown>
+#17 0x5e352f472c47 <unknown>
+#18 0x5e352f44067f <unknown>
+#19 0x5e352f491288 <unknown>
+#20 0x5e352f491450 <unknown>
+#21 0x5e352f4a1076 <unknown>
+#22 0x71200be9ca94 <unknown>
+#23 0x71200bf29c3c <unknown>
+
+2025-01-19 08:17:12,413 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e352f4a21fa <unknown>
+#1 0x5e352efb2810 <unknown>
+#2 0x5e352f008206 <unknown>
+#3 0x5e352f00616d <unknown>
+#4 0x5e352f003885 <unknown>
+#5 0x5e352f002a48 <unknown>
+#6 0x5e352eff61f5 <unknown>
+#7 0x5e352f025582 <unknown>
+#8 0x5e352eff5b38 <unknown>
+#9 0x5e352f02574e <unknown>
+#10 0x5e352f044007 <unknown>
+#11 0x5e352f025323 <unknown>
+#12 0x5e352eff3de0 <unknown>
+#13 0x5e352eff4dbe <unknown>
+#14 0x5e352f46e12b <unknown>
+#15 0x5e352f4720c7 <unknown>
+#16 0x5e352f45b6cc <unknown>
+#17 0x5e352f472c47 <unknown>
+#18 0x5e352f44067f <unknown>
+#19 0x5e352f491288 <unknown>
+#20 0x5e352f491450 <unknown>
+#21 0x5e352f4a1076 <unknown>
+#22 0x71200be9ca94 <unknown>
+#23 0x71200bf29c3c <unknown>
+
+2025-01-19 08:18:57,454 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x5e352f4a21fa <unknown>
+#1 0x5e352efb2810 <unknown>
+#2 0x5e352f008206 <unknown>
+#3 0x5e352f00616d <unknown>
+#4 0x5e352f003885 <unknown>
+#5 0x5e352f002a48 <unknown>
+#6 0x5e352eff61f5 <unknown>
+#7 0x5e352f025582 <unknown>
+#8 0x5e352eff5b38 <unknown>
+#9 0x5e352f02574e <unknown>
+#10 0x5e352f044007 <unknown>
+#11 0x5e352f025323 <unknown>
+#12 0x5e352eff3de0 <unknown>
+#13 0x5e352eff4dbe <unknown>
+#14 0x5e352f46e12b <unknown>
+#15 0x5e352f4720c7 <unknown>
+#16 0x5e352f45b6cc <unknown>
+#17 0x5e352f472c47 <unknown>
+#18 0x5e352f44067f <unknown>
+#19 0x5e352f491288 <unknown>
+#20 0x5e352f491450 <unknown>
+#21 0x5e352f4a1076 <unknown>
+#22 0x71200be9ca94 <unknown>
+#23 0x71200bf29c3c <unknown>
+
+2025-01-19 08:30:02,406 - INFO - ------Log từ file crawling_data.py. --------
+2025-01-19 08:30:17,358 - WARNING - Can not find HTML element Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=131.0.6778.264); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x6157529471fa <unknown>
+#1 0x615752457810 <unknown>
+#2 0x6157524a6506 <unknown>
+#3 0x6157524a67a1 <unknown>
+#4 0x61575249ac46 <unknown>
+#5 0x6157524ca5ad <unknown>
+#6 0x61575249ab38 <unknown>
+#7 0x6157524ca74e <unknown>
+#8 0x6157524e9007 <unknown>
+#9 0x6157524ca323 <unknown>
+#10 0x615752498de0 <unknown>
+#11 0x615752499dbe <unknown>
+#12 0x61575291312b <unknown>
+#13 0x6157529170c7 <unknown>
+#14 0x6157529006cc <unknown>
+#15 0x615752917c47 <unknown>
+#16 0x6157528e567f <unknown>
+#17 0x615752936288 <unknown>
+#18 0x615752936450 <unknown>
+#19 0x615752946076 <unknown>
+#20 0x778f5e69ca94 <unknown>
+#21 0x778f5e729c3c <unknown>
+
+2025-01-19 08:32:23,919 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 1097)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6157529471fa <unknown>
+#1 0x615752457810 <unknown>
+#2 0x6157524ad206 <unknown>
+#3 0x6157524ab16d <unknown>
+#4 0x6157524a8885 <unknown>
+#5 0x6157524a7a48 <unknown>
+#6 0x61575249b1f5 <unknown>
+#7 0x6157524ca582 <unknown>
+#8 0x61575249ab38 <unknown>
+#9 0x6157524ca74e <unknown>
+#10 0x6157524e9007 <unknown>
+#11 0x6157524ca323 <unknown>
+#12 0x615752498de0 <unknown>
+#13 0x615752499dbe <unknown>
+#14 0x61575291312b <unknown>
+#15 0x6157529170c7 <unknown>
+#16 0x6157529006cc <unknown>
+#17 0x615752917c47 <unknown>
+#18 0x6157528e567f <unknown>
+#19 0x615752936288 <unknown>
+#20 0x615752936450 <unknown>
+#21 0x615752946076 <unknown>
+#22 0x778f5e69ca94 <unknown>
+#23 0x778f5e729c3c <unknown>
+
+2025-01-19 08:32:36,284 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 844)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6157529471fa <unknown>
+#1 0x615752457810 <unknown>
+#2 0x6157524ad206 <unknown>
+#3 0x6157524ab16d <unknown>
+#4 0x6157524a8885 <unknown>
+#5 0x6157524a7a48 <unknown>
+#6 0x61575249b1f5 <unknown>
+#7 0x6157524ca582 <unknown>
+#8 0x61575249ab38 <unknown>
+#9 0x6157524ca74e <unknown>
+#10 0x6157524e9007 <unknown>
+#11 0x6157524ca323 <unknown>
+#12 0x615752498de0 <unknown>
+#13 0x615752499dbe <unknown>
+#14 0x61575291312b <unknown>
+#15 0x6157529170c7 <unknown>
+#16 0x6157529006cc <unknown>
+#17 0x615752917c47 <unknown>
+#18 0x6157528e567f <unknown>
+#19 0x615752936288 <unknown>
+#20 0x615752936450 <unknown>
+#21 0x615752946076 <unknown>
+#22 0x778f5e69ca94 <unknown>
+#23 0x778f5e729c3c <unknown>
+
+2025-01-19 08:35:33,737 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 710)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6157529471fa <unknown>
+#1 0x615752457810 <unknown>
+#2 0x6157524ad206 <unknown>
+#3 0x6157524ab16d <unknown>
+#4 0x6157524a8885 <unknown>
+#5 0x6157524a7a48 <unknown>
+#6 0x61575249b1f5 <unknown>
+#7 0x6157524ca582 <unknown>
+#8 0x61575249ab38 <unknown>
+#9 0x6157524ca74e <unknown>
+#10 0x6157524e9007 <unknown>
+#11 0x6157524ca323 <unknown>
+#12 0x615752498de0 <unknown>
+#13 0x615752499dbe <unknown>
+#14 0x61575291312b <unknown>
+#15 0x6157529170c7 <unknown>
+#16 0x6157529006cc <unknown>
+#17 0x615752917c47 <unknown>
+#18 0x6157528e567f <unknown>
+#19 0x615752936288 <unknown>
+#20 0x615752936450 <unknown>
+#21 0x615752946076 <unknown>
+#22 0x778f5e69ca94 <unknown>
+#23 0x778f5e729c3c <unknown>
+
+2025-01-19 08:37:42,327 - WARNING - Warning using craw_product_info function Message: element click intercepted: Element is not clickable at point (982, 792)
+  (Session info: chrome=131.0.6778.264)
+Stacktrace:
+#0 0x6157529471fa <unknown>
+#1 0x615752457810 <unknown>
+#2 0x6157524ad206 <unknown>
+#3 0x6157524ab16d <unknown>
+#4 0x6157524a8885 <unknown>
+#5 0x6157524a7a48 <unknown>
+#6 0x61575249b1f5 <unknown>
+#7 0x6157524ca582 <unknown>
+#8 0x61575249ab38 <unknown>
+#9 0x6157524ca74e <unknown>
+#10 0x6157524e9007 <unknown>
+#11 0x6157524ca323 <unknown>
+#12 0x615752498de0 <unknown>
+#13 0x615752499dbe <unknown>
+#14 0x61575291312b <unknown>
+#15 0x6157529170c7 <unknown>
+#16 0x6157529006cc <unknown>
+#17 0x615752917c47 <unknown>
+#18 0x6157528e567f <unknown>
+#19 0x615752936288 <unknown>
+#20 0x615752936450 <unknown>
+#21 0x615752946076 <unknown>
+#22 0x778f5e69ca94 <unknown>
+#23 0x778f5e729c3c <unknown>
+
+2025-01-21 08:13:54,787 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:13:54,788 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:15:04,853 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:15:04,854 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:15:49,650 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:15:49,650 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:16:52,074 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 08:18:30,763 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:18:30,763 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:18:44,417 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 08:55:49,052 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:55:49,053 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:56:00,580 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 08:57:11,852 - INFO - Use pytorch device_name: cpu
+2025-01-21 08:57:11,852 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 08:57:26,170 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:02:23,153 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:02:23,153 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:02:33,585 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:04:00,372 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:04:00,372 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:04:33,759 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:14:55,451 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:14:55,451 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:15:11,570 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:15:34,693 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:15:34,693 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:15:47,625 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:16:39,941 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:16:39,941 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:16:48,010 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:17:35,754 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:17:35,756 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-01-21 09:17:47,476 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 09:27:15,389 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:27:15,389 - INFO - Load pretrained SentenceTransformer: nomic-ai/nomic-embed-text-v1.5
+2025-01-21 09:30:22,812 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:30:22,813 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 09:58:45,676 - INFO - Use pytorch device_name: cpu
+2025-01-21 09:58:45,677 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 09:59:00,793 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 10:00:21,433 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:00:21,433 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:00:39,839 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 10:04:18,723 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:04:18,724 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:07:11,265 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:07:11,265 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:10:01,242 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:10:01,242 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:13:01,309 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:13:01,310 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:13:53,951 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:13:53,951 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 10:14:06,320 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 10:53:11,714 - INFO - Use pytorch device_name: cpu
+2025-01-21 10:53:11,715 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 18:36:17,300 - INFO - Use pytorch device_name: cpu
+2025-01-21 18:36:17,300 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 18:43:48,170 - INFO - Use pytorch device_name: cpu
+2025-01-21 18:43:48,170 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 18:44:39,605 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-21 18:45:53,864 - INFO - Use pytorch device_name: cpu
+2025-01-21 18:45:53,864 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-21 18:47:43,388 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.

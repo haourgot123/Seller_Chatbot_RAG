@@ -17,13 +17,13 @@ qdrant:
 
 huggingface:
   api_key: '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'
-  baai_embedding: 'BAAI/bge-small-en-v1.5'
+  baai_embedding: 'BAAI/bge-m3'
 
 chroma:
-  db_path : 'database'
+  db_path : 'database/chroma'
   collection: 'production'
-  top_k: 10
-  score_threshold: 0.4
+  top_k: 5
+  score_threshold: 0.7
 
 data:
   final_data_path: data/final.csv

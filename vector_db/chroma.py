@@ -1,4 +1,5 @@
 import os
+import re
 import pandas as pd
 import logging
 from langchain_core.documents import Document
@@ -35,20 +36,14 @@ class DataPreprocesser:
         
         for _, row in final_df.iterrows():
             content = (
-                """
-                Tên sản phẩm: {item_name} - Giá gốc: {origin_price}
-                Màu sắc và giá
-                """
-                f'Tên sản phẩm: {row["item_name"]} - '
-                f'Giá gốc: {row["origin_price"]}\n'
-                f'Màu sắc và giá tương ứng: {row["color_price"]}\n'
-                f'Thông số kĩ thuật: {row["technical_infomation"]}\n\n'
+                f"Tên sản phẩm: {row['item_name'].lower()}-"
+                f"Màu sắc: {row['colors']}\n"
+                f"Thông số kĩ thuật: {row['technical_infomation'].lower()}\n\n"
             )
             metadata = {
                 'item_link' : row['url'],
                 'item_name': row['item_name'],
-                'orgin_price': row['origin_price'],
-                'color_and_price': row['color_price'],
+                'color_and_price': row['colors'],
                 'technical_infomation': row['technical_infomation']
             }
             documents.append(Document(content, metadata = metadata))
@@ -94,9 +89,8 @@ class ChromaRetriever:
         return mmr
     def bm25_retriever(self, documents):
         '''Create bm25 retriever'''
-        bm25 = BM25Retriever.from_documents(documents, 
-                                            search_kwargs = {'k' : CONFIG_APP.CHROMA_TOP_K}
-        )
+        bm25 = BM25Retriever.from_documents(documents)
+        bm25.k = CONFIG_APP.CHROMA_TOP_K
         return bm25
     def vanilla_retriver(self, vector_db):
         '''Create vanilla retriever with similarity search'''
@@ -117,7 +111,7 @@ class ChromaSearchEngine:
                                              documents = documents)
         retriever_engine = self.retriever.ensemble_retriever(vector_db = vector_db,
                                                              documents = documents)
-        relevent_docs = retriever_engine.invoke(question)
+        relevent_docs = retriever_engine.invoke(input = question)
         relevent_docs = "\n".join(doc.page_content for doc in relevent_docs) if relevent_docs else None
         return relevent_docs
 
@@ -125,5 +119,8 @@ class ChromaSearchEngine:
 if __name__ == "__main__":
     
     search_engine = ChromaSearchEngine()
-    relevent_docs = search_engine.search('Hãy cho tôi thông tin vê Iphone 16 promax')
-    print(relevent_docs)
+    while 1:
+        print('=================================')
+        query  = input('Nhập câu query: ')
+        relevent_docs = search_engine.search(query)
+        print(relevent_docs)
