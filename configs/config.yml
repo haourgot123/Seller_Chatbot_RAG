@@ -16,7 +16,7 @@ qdrant:
   thresh_score: 0.3
 
 huggingface:
-  api_key: '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'
+  api_key: ''
   baai_embedding: 'BAAI/bge-m3'
 
 chroma:
