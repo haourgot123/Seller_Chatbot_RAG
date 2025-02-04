@@ -122,7 +122,7 @@ def craw_color_price(browser, class_name):
             color = option.find_element(By.TAG_NAME, 'span').text
             price = option.find_element(By.TAG_NAME, 'p').text
             colors.append(color)
-            prices.append(price)
+            prices.append(f'{color} - Giá: {price}')
         return ",".join(colors), ",".join(prices)
     except Exception as e:
         logging.warning('Item have not colors or price')

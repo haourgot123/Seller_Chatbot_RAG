@@ -1469,3 +1469,12 @@ Stacktrace:
 2025-01-21 18:45:53,864 - INFO - Use pytorch device_name: cpu
 2025-01-21 18:45:53,864 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
 2025-01-21 18:47:43,388 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-22 16:19:48,326 - INFO - Use pytorch device_name: cpu
+2025-01-22 16:19:48,326 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-22 16:20:00,703 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-22 16:20:27,065 - INFO - Use pytorch device_name: cpu
+2025-01-22 16:20:27,065 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-22 16:20:51,254 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-01-23 14:13:26,234 - INFO - Use pytorch device_name: cpu
+2025-01-23 14:13:26,234 - INFO - Load pretrained SentenceTransformer: BAAI/bge-m3
+2025-01-23 14:13:41,273 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.

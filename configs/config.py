@@ -37,6 +37,10 @@ class LoadConfig:
         self.CHROMA_TOP_K = config['chroma']['top_k']
         self.CHROMA_SCORE_THRESHOLD = config['chroma']['score_threshold']
 
+        self.ELASTIC_CLOUD_ID = config['elastic_search']['cloud_id']
+        self.ELASTIC_API_KEY = config['elastic_search']['api_key']  
+        self.ELASTIC_INDEX_NAME = config['elastic_search']['index_name'] 
+        self.ELASTIC_TIMEOUT = config['elastic_search']['timeout']   
         # DATA CONFIG
         self.FINAL_DATA_PATH = config['data']['final_data_path']
         # RAG CONFIIG
