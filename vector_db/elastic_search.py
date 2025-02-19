@@ -1,9 +1,7 @@
-
 import logging
 import pandas as pd
 from elasticsearch import Elasticsearch
 from configs.config import LoadConfig
-
 
 
 CONFIG_APP = LoadConfig()
@@ -52,7 +50,7 @@ class ElasticSearch:
                         "renew_value": row["renew_value"],
                         "technical_infomation": row["technical_infomation"].lower(),
                         "screen_freq": row["screen_freq"],
-                        "screen_tech": row["screen_tech"],
+                        "screen_tech": row["screen_tech"].lower(),
                         "screen_size": row["screen_size"],
                         "in_memory": row["in_memory"],
                         "RAM": row["RAM"],
@@ -64,48 +62,41 @@ class ElasticSearch:
                 print('================== Index name existed ======================')
         except Exception as e:
             logging.error(f"An eror when indexing documents in elasticsearch: {e}")  
-    def search(self, query):
+    def search(self, query, sort, size = 3):
         response = self.client.search(
             index = CONFIG_APP.ELASTIC_INDEX_NAME,
-            size = 5,
-            query = query
+            size = size,
+            query = query,
+            sort = sort
         )
         return response
 
-    def create_query(self, infomation):
-        """
-        Xử lí thông tin từ function calling trả về và tạo query cho elastic search
-        """
-        query = {
-            "bool": {
-                "must": [
-                    {"match": {"item_name": infomation['item_name']}},
-                    {"match": {"technical_infomation": infomation['technical_infomation']}}
-                ]
-            }
-        }
-        # if infomation['technical_infomation']: 
-        #     query['bool']['must'].append({"match": {"technical_infomation": infomation['technical_infomation']}})
-        # if infomation['price']:
-        return query  
-
     def delete_index(self, index_name = CONFIG_APP.ELASTIC_INDEX_NAME):
-        response =  self.client.indices.delete(
-            index = index_name
-        )
-        print(response)
-if __name__ == "__main__":
-    elasticsearch = ElasticSearch()
-    elasticsearch.init_index()
-    infomation = {
-        "item_name": "iphone 12 pro max",
-        "technical_infomation": "None"
-    }
-    query = elasticsearch.create_query(infomation = infomation)
+        try:
+            response =  self.client.indices.delete(
+                index = index_name
+            )
+            logging.info('Delete Index Successfully!')
+        except Exception as e:
+            logging.warning(f'Error when delete index elastic search: {e}')
+# if __name__ == "__main__":
+#     elasticsearch = ElasticSearch()
+#     elasticsearch.init_index()
+#     infomation = {
+#         "item_name": "iphone 13 pro max",
+#         "technical_infomation": "1 sim"
+#     }
+#     query = elasticsearch.create_query(infomation = infomation)
 
-    res = elasticsearch.search(query = query)
-    # elasticsearch.delete_index()
-    print(res['hits'])
+#     res = elasticsearch.search(
+#                                 query = query,
+#                                sort = [
+#                                 {'origin_price': {"order": "asc"}}
+#                                ])
+#     # elasticsearch.delete_index()
+#     for hit in res['hits']['hits']:
+#         print(hit['_source']['item_name'])
+#     print(len(res['hits']['hits']))
 
 
         

@@ -44,6 +44,9 @@ class DataPreprocesser:
                 'item_link' : row['url'],
                 'item_name': row['item_name'],
                 'color_and_price': row['colors'],
+                'prices': row['prices'],
+                'origin_price': row['origin_price'],
+                'renew_value': row['renew_value'],
                 'technical_infomation': row['technical_infomation']
             }
             documents.append(Document(content, metadata = metadata))
@@ -105,22 +108,22 @@ class ChromaSearchEngine:
         self.documents= DataPreprocesser()
         self.vector_db = ChromaDB()
         self.retriever = ChromaRetriever()
+        self.documents = self.documents.create_document()
+        self.vector_db = self.vector_db.create_db(db_path = CONFIG_APP.CHROMA_PATH,
+                                             documents = self.documents)
     def search(self, question):
-        documents = self.documents.create_document()
-        vector_db = self.vector_db.create_db(db_path = CONFIG_APP.CHROMA_PATH,
-                                             documents = documents)
-        retriever_engine = self.retriever.ensemble_retriever(vector_db = vector_db,
-                                                             documents = documents)
+        retriever_engine = self.retriever.ensemble_retriever(vector_db = self.vector_db,
+                                                             documents = self.documents)
         relevent_docs = retriever_engine.invoke(input = question)
         relevent_docs = "\n".join(doc.page_content for doc in relevent_docs) if relevent_docs else None
         return relevent_docs
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     
-    search_engine = ChromaSearchEngine()
-    while 1:
-        print('=================================')
-        query  = input('Nhập câu query: ')
-        relevent_docs = search_engine.search(query)
-        print(relevent_docs)
+#     search_engine = ChromaSearchEngine()
+#     while 1:
+#         print('=================================')
+#         query  = input('Nhập câu query: ')
+#         relevent_docs = search_engine.search(query)
+#         print(relevent_docs)

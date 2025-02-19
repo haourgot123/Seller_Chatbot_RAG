@@ -1,0 +1,16 @@
+langchain
+langchain_chroma
+langchain_core
+langchain_groq
+langchain_community
+qdrant_client
+elasticsearch
+tqdm
+pandas
+numpy
+groq
+pyyaml
+fastembed
+streamlit
+sentence-transformers
+rank_bm25

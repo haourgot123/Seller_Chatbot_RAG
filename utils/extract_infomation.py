@@ -1,82 +1,29 @@
+import time
 from groq import Groq
 from configs.config import LoadConfig
 
 CONFIG_APP = LoadConfig()
 
-# define function
-tools  = [
-    {
-      "type": "function",
-      "function": {
-         "name": "extract_data",
-         "description": "Trích xuất thông tin sản phẩm từ câu hỏi của người dùng.",
-         "parameters": {
-            "type": "object",
-            "properties": {
-                "item_name": {
-                    "type": "string",
-                    "description": "Trích xuất ra tên cụ thể của điện thoại trong câu hỏi của người dùng. Ví dụ: Iphone 12 pro max, Samsung Galaxy Z Fold3, ..."
-                },
-                "techinical_infomation": {
-                    "type": "string",
-                    "description": "Trích xuất ra các thông số của sản phẩm trong câu hỏi của người dùng. Ví dụ: 2 sim 2 sóng, chế độ ban đêm, xóa phông, quay video 4K, ..."
-                },
-                "price": {
-                    "type": "number",
-                    "description": "Trích xuất giá tiền trong câu hỏi của người dùng. Ví dụ: 20 triệu, 30 nghìn, ..."
-                },
-                "renew_value": {
-                    "type": "number",
-                    "description": "Trích xuất gía tiền lên đời sản phẩm trong câu hỏi của người dùng. Ví dụ: 18 triệu, 18k, 20 nghìn, ..."
-                },
-                "color": {
-                    "type": "string",
-                    "description": "Trích xuất màu sắc trong câu hỏi của người dùng. Ví dụ: Trắng, Đen, ..."
-                },
-                "ram": {
-                    "type": "number",
-                    "description": "Trích xuất dung lượng RAM trong câu hỏi của người dùng. Ví dụ: 8GB, 16GB, ..."
-                },
-                "in_memory": {
-                    "type": "number",
-                    "description": "Trích xuất dung lượng bộ nhớ trong câu hỏi của người dùng. Ví dụ: 128GB, 256GB, ..."
-                },
-                "screen_freq": {
-                    "type": "number",
-                    "description": "Trích xuất ra tần số quét màn hình trong câu hỏi của nguời dùng. Ví dụ: 120Hz, 100Hz, 60Hz, ..."
-                },
-                "screen_size": {
-                    "type": "number",
-                    "description": "Trích xuất ra thông tin về kích thước màn hình trong câu hỏi của người dùng. Ví dụ: 7.3', 4.5 inch, ..."
-                },
-                "screen_tech": {
-                    "type": "string",
-                    "description": "Trích xuất thông tin về công nghệ màn hình trong câu hỏi của người dùng. Ví dụ: Super Retina, OLED, ..."
-                },
-                "battery_capacity": {
-                    "type": "number",
-                    "description": "Trích xuất thông tin về dung lượng pin của sản phẩm từ câu hỏi của người dùng. Ví dụ: 5000mAh, 4000mAh, ..."
-                }
-            },
-            "required": ["item_name", "price","renew_value", "color", "ram", "in_memory", "screen_freq", "screen_size", "screen_tech"]
-          } 
-      }
-      
-    }
-]
+def process_response(response):
+    try:
+        result = response.choices[0].message.tool_calls[0].function.arguments
+        if not result:
+            raise ValueError("Không có kết quả hợp lệ từ function calling")
+        return result
+    except Exception as e:
+        print(f"Lỗi khi xử lý phản hồi: {e}")
+        return None
 
-def extract_info(query):
-    """
-    Hàm trích xuất thông tin về sản phẩm từ câu hỏi của nguời dùng.
-    """
+def extract_info(query, max_retries = 3, delay = 2):
     user_prompt = f"Trích xuất thông tin từ câu hỏi sau đây: {query}"
     messages = [
         {"role": "system",
          "content": """ Bạn là một chuyên gia trong việc extract thông tin từ câu hỏi của người dùng.
                         Hãy giúp tôi trích xuất các thông tin về thông số kĩ thuật, tên hoặc loại sản phẩm có trong câu hỏi của người dùng.
-                        + Nếu câu hỏi có các thông số  lớn, nhỏ, rẻ, đắt, ... thì trả ra cụm đó.
+                        + Nếu câu hỏi về thông số hoặc giá sản phẩm có các cụm từ {rẻ, rẻ nhất, đắt, đắt nhất, lớn, lớn nhất, nhỏ, nhỏ nhất, yếu, yếu nhất, mạng, mạnh nhất, cao, cao nhất, thấp, thấp nhất} thì chỉ trả về chính xác cụm từ xuất hiện trong danh sách {rẻ, rẻ nhất, đắt, đắt nhất, lớn, lớn nhất, nhỏ, nhỏ nhất, yếu, yếu nhất, mạng, mạnh nhất, cao, cao nhất, thấp, thấp nhất} cho thông số mà khách yêu cầu và không thêm tù nào khác.
+                        + Nếu trong câu hỏi về dung lượng pin có các cụm từ: trâu, trâu nhất thì trả về chính xác cụm từ đó.
                         + Nếu không có thông số nào thì trả ra '' cho thông số đó.
-                        + Nếu câu hỏi có các thông số trâu, trâu nhất, khỏe nhất liên quan đến dung lượng pin thì trả ra cụm đó.
+                        + Nếu trong câu hỏi có tên của 2 sản phẩm thì trả về tên 2 sản phẩm đó ngăn cách nhau bởi dấu ",".
         """},
         {"role": "user",
         "content": user_prompt}
@@ -84,26 +31,40 @@ def extract_info(query):
     client  = Groq(
         api_key = CONFIG_APP.GROQ_API
     )
-    response = client.chat.completions.create(
-        model = CONFIG_APP.GROQ_MODEL,
-        messages = messages,
-        stream = False,
-        tools = tools,
-        tool_choice = "auto",
-        max_completion_tokens = CONFIG_APP.GROQ_MAX_TOKENS
-    )
-    return response.choices[0].message.tool_calls[0].function.arguments
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=CONFIG_APP.GROQ_MODEL,
+                messages=messages,
+                stream=False,
+                tools=CONFIG_APP.EXTRACT_TOOLS,
+                tool_choice="auto",
+                max_completion_tokens=CONFIG_APP.GROQ_MAX_TOKENS
+            )
+            result = process_response(response)
+            if result:
+                return result 
+            print(f"Lần thử {attempt + 1} thất bại, thử lại")
+            time.sleep(delay) 
+        except Exception as e:
+            print(f"Lỗi trong lần thử {attempt + 1}: {e}")
+            time.sleep(delay)
+    print("Đã thử lại nhiều lần nhưng không có kết quả.")
+    return None 
+
+
+# if __name__ == "__main__":
+#     queries = ["Tôi cần mua một chiếc điện thoại iphone giá 12 triệu",
+#                "Tôi cần mua một chiếc điện thoại samsung giá rẻ nhất",
+#                "Tôi cần mua một chiếc điện thoại iphone pin trâu.",
+#                "Tôi cần mua một chiếc điện thoại 2 sim 2 sóng.",
+#                "Tôi cần mua một chiếc điện thoại có camera trước 60 fps.",
+#                "Tôi cần mua một chiếc điện thoại Iphone màu xanh mòng két.",
+#                "Tôi cần mua một chiếc điện thoại Samsung có giá khoảng 20 triệu.",
+#                "So sánh Iphone 16 pro max và SamSung Galaxy S22 Ultra   "]
+#     for query in queries:
+#         response = extract_info(query)
+#         print(response)
 
 
 
-if __name__ == "__main__":
-    queries = ["Tôi cần mua một chiếc điện thoại iphone giá 12 triệu",
-               "Tôi cần mua một chiếc điện thoại samsung giá rẻ nhất",
-               "Tôi cần mua một chiếc điện thoại iphone pin trâu.",
-               "Tôi cần mua một chiếc điện thoại 2 sim 2 sóng.",
-               "Tôi cần mua một chiếc điện thoại có camera trước 60 fps.",
-               "Tôi cần mua một chiếc điện thoại Iphone màu xanh mòng két.",
-               "Tôi cần mua một chiếc điện thoại Samsung có giá khoảng 20 triệu."]
-    for query in queries:
-        response = extract_info(query)
-        print(response)
